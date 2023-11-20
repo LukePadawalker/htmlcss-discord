@@ -51,24 +51,38 @@
     border-radius: 100px;
 }
 
+.title{
+    font-size: 4rem;
+}
+
+.paragraph{
+    font-size: 1.3rem;
+}
+
+.center{
+    text-align: center;
+}
+
 
 
 /*  Header  */
 
 header{
     flex-wrap: wrap;
-    height: 600px;
+    height: 800px;
     width: 100%;
     background-image: url(/img/jumbo.png);
+    background-position: 70%;
     background-size: cover;
 }
 
 .navbar{
     justify-content: center;
     align-items: flex-start;
-    height: 100px;
-    width: 100%;
-}
+    align-self: flex-start;
+    padding: 1%;
+    height: 200px;
+    width: 100%;}
 .logo{
     width: 15%;
     height: 40px;
@@ -86,10 +100,22 @@ header{
 }
 
 .login-button{
-    width: 28%;
-    height: 40px;
     border: 0ch;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;    
 }
+
+.button{
+    border: 0ch;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: min-content;
+    font-size: larger;
+}
+
+
 
 
 
@@ -99,17 +125,21 @@ header{
 
 
 .card1{
-    width: 65%;
-    min-height: 400px;
-    background-color: rgb(255, 127, 255);
+    align-self: baseline;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50%;
+    min-height: 300px;
 }
+
+
 
 
 /*   Secondo contenitore  */
 
 
 .content2{
-
     background-color: white;
     height: 1000px;
     width: 100%;
