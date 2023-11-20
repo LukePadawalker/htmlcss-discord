@@ -52,11 +52,12 @@
 }
 
 .title{
-    font-size: 4rem;
+    font-size: 3.7rem;
 }
 
 .paragraph{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    padding-top: 15px;
 }
 
 .center{
@@ -140,19 +141,22 @@ header{
 
 
 .content2{
+    justify-content: center;
+    align-items: center;
     background-color: white;
     height: 1000px;
     width: 100%;
 }
 .card2{
-    width: 50%;
+    align-self: flex-start;
+    width: 40%;
     min-height: 800px;
-    background-color: rgb(18, 112, 227);
 }
 .card3{
-    width: 30%;
-    min-height: 800px;
-    background-color: rgb(245, 195, 245);
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    min-height: 600px;
 }
 
 
@@ -160,21 +164,23 @@ header{
 
 
 .content3{
-    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(197, 194, 194);
     min-height: 1000px;
     width: 100%;
 }
 .card4{
-    width: 30%;
-    min-height: 800px;
-    border: 2px dotted black;
-    background-color: rgb(245, 195, 245);
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    min-height: 600px;
 }
 .card5{
-    width: 50%;
+    align-self: flex-start;
+    align-items: center;
+    width: 40%;
     min-height: 800px;
-    border: 2px dotted black;
-    background-color: rgb(18, 112, 227);
 }
 
 
