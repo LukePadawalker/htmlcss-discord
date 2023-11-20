@@ -25,6 +25,10 @@
     color:rgb(31, 31, 31)
 }
 
+.violet-text{
+    color:rgb(87, 9, 255)
+}
+
 .white-border{
     border: 2px dashed white;
 }
@@ -42,6 +46,10 @@
 
 }
 
+.violet-bg{
+    background-color: rgb(190, 180, 255);
+}
+
 .container-properties{
     justify-content: center;
     align-items: center;
@@ -56,7 +64,8 @@
 }
 
 .paragraph{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 400;
     padding-top: 15px;
 }
 
@@ -64,6 +73,17 @@
     text-align: center;
 }
 
+.direction-column{
+    flex-direction: column;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.padding{
+    padding: 10px;
+}
 
 
 /*  Header  */
@@ -166,7 +186,7 @@ header{
 .content3{
     justify-content: center;
     align-items: center;
-    background-color: rgb(197, 194, 194);
+    background-color: rgb(228, 228, 228);
     min-height: 1000px;
     width: 100%;
 }
@@ -188,19 +208,23 @@ header{
 
 
 .content4{
+    justify-content: center;
+    align-items: center;
     background-color: white;
     min-height: 1000px;
     width: 100%;
 }
 .card6{
+    align-self: flex-start;
+    align-items: center;
     width: 50%;
     min-height: 800px;
-    background-color: rgb(18, 112, 227);
 }
 .card7{
-    width: 30%;
-    min-height: 800px;
-    background-color: rgb(245, 195, 245);
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 25%;
+    min-height: 600px;
 }
 
 
@@ -208,14 +232,49 @@ header{
 
 
 .content5{
-    background-color: gray;
-    min-height: 1400px;
+    background-image: url(/img/stars.svg);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position:  50%  83%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(228, 228, 228);
+    min-height: 1500px;
     width: 100%;
 }
+
+.tecnologia{
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+.video-audio{
+    width: 70%;
+    text-align: center;
+}
+
+
 .greencard{
+    justify-content: center;
+    align-items: center;
     width: 80%;
     min-height: 1200px;
-    background-color: green;
+}
+
+.big-svg{
+    width: 100%;
+    height: max-content;
+}
+
+.pronto-avventura{
+    margin-top: 200px;
+    font-size: 2.1rem;
+}
+.last-button{
+    margin: 50px;
+    margin-bottom: 200px;
 }
 
 
@@ -223,21 +282,30 @@ header{
 
 
 .footer-links{
+    padding: 100px;
+    align-items: flex-start;
     background-color: rgb(31, 31, 31);
-    min-height: 800px;
+    min-height: 500px;
     width: 100%;
 }
 .pink-column{
     width: 20%;
-    min-height: 750px;
-    background-color: rgb(255, 142, 142);
+    min-height: 300px;
 }
 .column{
     width: 15%;
-    min-height: 750px;
-    background-color: rgb(22, 184, 162);
+    min-height: 300px;
+
 }
 
+.italy-flag{
+    max-width: 7%;
+}
+
+.il-tuo-posto{
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
 
 /*   Copyright */
 
@@ -248,7 +316,7 @@ footer{
     align-items: center;
     background-color: rgb(31, 31, 31);
     min-height: 150px;
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(107, 10, 198);
     width: 100%;
 
 }
@@ -260,15 +328,15 @@ footer{
     align-items: center;
     width: 80%;
     min-height: 100px;
-    background-color: rgb(138, 255, 251);
+    background-color: rgb(138255, 251);
 }
+
 .footer-logo{
     width: 7%;
     min-height: 40px;
-    background-color: rgb(255, 171, 212);
 }
 .footer-button{
     width: 7%;
     min-height: 40px;
-    background-color: rgb(255, 171, 212);
+
 }
