@@ -19,21 +19,20 @@
 .white-border{
     border: 2px dashed white;
 }
+
 .navbar-bg{
     background-color: gold;
-
-
 }
 
-
+.container-properties{
+    justify-content: center;
+    align-items: center;
+}
 
 
 /*  Header  */
 
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
     height: 700px;
     width: 100%;
@@ -75,9 +74,7 @@ header{
 
 
 .content2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
     background-color: white;
     height: 1000px;
     width: 100%;
@@ -98,9 +95,6 @@ header{
 
 
 .content3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: gray;
     min-height: 1000px;
     width: 100%;
@@ -123,9 +117,6 @@ header{
 
 
 .content4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: white;
     min-height: 1000px;
     width: 100%;
@@ -146,9 +137,6 @@ header{
 
 
 .content5{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: gray;
     min-height: 1400px;
     width: 100%;
@@ -164,9 +152,6 @@ header{
 
 
 .footer-links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: rgb(31, 31, 31);
     min-height: 800px;
     width: 100%;
@@ -189,13 +174,15 @@ header{
 footer{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     background-color: rgb(31, 31, 31);
     min-height: 150px;
     border-top: 1px solid white;
     width: 100%;
 
 }
+
+
 .copyright{
     display: flex;
     justify-content: space-between;
